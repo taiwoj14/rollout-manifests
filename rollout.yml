@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: rollout-container
-          image: josepht05/bluegreen-rollout-july:4
+          image: josepht05/bluegreen-rollout-july:5
           ports:
             - name: http
               containerPort: 3000
